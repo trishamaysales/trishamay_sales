@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>My Portfolio</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm a passionate web developer who loves building clean and functional websites.</p>
+    <img src="images/id picture.png" alt="Profile Picture" class="profile-pic" />
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <img src="images/project1.jpg" alt="Project 1" />
+        <h3>Project One</h3>
+        <p>A cool project I worked on.</p>
+        <a href="https://github.com/yourusername/project1" target="_blank">View Code</a>
+      </div>
+
+      <div class="project-card">
+        <img src="images/id picture.jpg" alt="Project 2" />
+        <h3>Project Two</h3>
+        <p>Another amazing project.</p>
+        <a href="https://github.com/yourusername/project2" target="_blank">View Code</a>
+      </div>
+
+      <!-- Add more projects as needed -->
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form id="contact-form">
+      <label for="name">Name:</label>
+      <input id="name" type="text" required />
+
+      <label for="email">Email:</label>
+      <input id="email" type="email" required />
+
+      <label for="message">Message:</label>
+      <textarea id="message" rows="4" required></textarea>
+
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Your Name. All rights reserved.</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
